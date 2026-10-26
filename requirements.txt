@@ -1,0 +1,2 @@
+reportlab>=4      # tools/make_guide.py
+rmc>=0.2          # tools/vector_pull.py (pulls in rmscene)

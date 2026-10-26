@@ -1,0 +1,14 @@
+# your tablet's folder registry (personal UUIDs) — copy folders.example.json
+folders.json
+
+# pulled-from-tablet artifacts (regenerable; can be large)
+pulled/
+backup_*/
+raw/
+vectors/
+out/
+
+# python
+__pycache__/
+.venv/
+.DS_Store

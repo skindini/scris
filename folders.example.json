@@ -1,0 +1,10 @@
+{
+  "_note": "Copy to folders.json (gitignored). Names → folder UUIDs from `python3 scris.py ls`. Aliases map extra names onto the same folder.",
+  "folders": {
+    "study": "00000000-0000-0000-0000-000000000001",
+    "inbox": "00000000-0000-0000-0000-000000000002"
+  },
+  "aliases": {
+    "reading": "study"
+  }
+}
