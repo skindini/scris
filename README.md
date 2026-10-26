@@ -23,7 +23,7 @@ that exposes the USB web interface; the SSH verbs assume the Paper Pro Move's `x
 2. Then:
 
 ```bash
-git clone https://github.com/skindini/scris && cd scris
+git clone https://github.com/dasanache/scris && cd scris
 python3 scris.py ping            # "reachable" or a clean refusal telling you what to enable
 python3 scris.py ls              # root listing with folder UUIDs
 python3 scris.py push notes.pdf  # upload to root
