@@ -50,8 +50,10 @@ are PDFs with pen strokes flattened in. Everything else needs SSH.
 > `python3 tools/backup_tablet.py` first. Cloud sync did not preserve my content; the local
 > backup did.
 
-1. Enable developer mode (Settings → General → Software → Advanced). The tablet shows the root
-   password once. Back up first.
+1. Enable developer mode: **Settings → General → Paper Tablet → Software → Advanced → Developer
+   Mode** ([official docs](https://developer.remarkable.com/documentation/developer-mode)). The
+   tablet reboots wiped. The root password is then shown under **Help → About → Copyrights and
+   Licenses → General Information**. Back up first.
 2. Put your key on it and add a host alias:
 
 ```
@@ -83,8 +85,9 @@ python3 -m venv .venv && .venv/bin/pip install rmc
 python3 tools/vector_pull.py "notes"      # → vectors/notes/page-01.svg …
 ```
 
-`rmc` parses the v6 `.rm` stroke format. It warns on some newer Paper Pro Move blocks and still
-converts. Its PDF output needs Inkscape; SVG is the target here.
+[`rmc`](https://github.com/ricklupton/rmc) parses the v6 `.rm` stroke format. It warns on some newer
+Paper Pro Move blocks and still converts. Known limit: pages with typed text boxes can come out with
+misplaced strokes. Its PDF output needs Inkscape; SVG is the target here.
 
 ## Guider PDFs
 
