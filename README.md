@@ -3,8 +3,7 @@
 Move files on and off a **reMarkable Paper Pro Move** from the command line, and pull your
 handwriting back as **editable SVG vectors**. Plain Python, stdlib transport, no cloud account.
 
-*scris* is Latin for "written" (from *scrībere*, to write). It is also the Romanian noun for
-handwriting. Tested on the Paper Pro Move (OS 3.27+). The USB verbs should work on any reMarkable
+*scris* is Latin for "written" (from *scrībere*, to write). Tested on the Paper Pro Move (OS 3.27+). The USB verbs should work on any reMarkable
 that exposes the USB web interface; the SSH verbs assume the Paper Pro Move's `xochitl` layout.
 
 ## What you get
